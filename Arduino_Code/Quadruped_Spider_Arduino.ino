@@ -1,12 +1,12 @@
 /* -----------------------------------------------------------------------------
-  - Project: Remote control Crawling robot
-  - Author:  panerqiang@sunfounder.com
-  - Date:  2015/1/27
+  - Project: Quadruped Spider: The Surveillance Robot
+  - Author:  rky629041@gmail.com
+  - Date:  2024/1/27
    -----------------------------------------------------------------------------
   - Overview
-  - This project was written for the Crawling robot desigened by Sunfounder.
+  - This project was written for the Crawling robot desigened by Roshan.
     This version of the robot has 4 legs, and each leg is driven by 3 servos.
-  This robot is driven by a Ardunio Nano Board with an expansion Board.
+  This robot is driven by a Ardunio UNO with an expansion Board.
   We recommend that you view the product documentation before using.
   - Request
   - This project requires some library files, which you can find in the head of
@@ -20,8 +20,6 @@
     4.comment VERIFY, make and run
   The document describes in detail how to operate.
    ---------------------------------------------------------------------------*/
-
-// modified by Sparklers for smartphone controlled Crawling robot, 3/30/2021
 
 /* Includes ------------------------------------------------------------------*/
 #include <Servo.h>    //to define and control servos
